@@ -111,7 +111,7 @@ twitch_miner.mine(
         Streamer("kurumiiqqe", settings=StreamerSettings(make_predictions=True  , follow_raid=True ,                     watch_streak=True , bet=BetSettings(strategy=Strategy.SMART      , percentage=5 , stealth_mode=True, percentage_gap=30 , max_points=19854987 , filter_condition=FilterCondition(by=OutcomeKeys.ODDS,             where=Condition.LT,  value=300 ) ) )),
         Streamer("ZapahKleya"),
         Streamer("moon_vanya"),
-        Streamer("streamer-username08"),
+        Streamer("blackmamba4ka"),
         "streamer-username09",
         "streamer-username10",
         "streamer-username11"
