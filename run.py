@@ -12,8 +12,8 @@ from TwitchChannelPointsMiner.classes.entities.Bet import Strategy, BetSettings,
 from TwitchChannelPointsMiner.classes.entities.Streamer import Streamer, StreamerSettings
 
 twitch_miner = TwitchChannelPointsMiner(
-    username="Ouguys",
-    password="Ouguys123",           # If no password will be provided, the script will ask interactively
+    username="ykcuss",
+    password="89223812Az",           # If no password will be provided, the script will ask interactively
     claim_drops_startup=False,                  # If you want to auto claim all drops from Twitch inventory on the startup
     priority=[                                  # Custom priority in this case for example:
         Priority.STREAK,                        # - We want first of all to catch all watch streak from all streamers
@@ -33,8 +33,8 @@ twitch_miner = TwitchChannelPointsMiner(
             BET_wiN=Fore.MAGENTA                # Color allowed are: [BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET].
         ),
         telegram=Telegram(                                                          # You can omit or leave None if you don't want to receive updates on Telegram
-            chat_id=1355513279,                                                      # Chat ID to send messages @GiveChatId
-            token="6791906560:AAGue8wnBO-lEQIwFNSqPzPKHATOybvo65U",                          # Telegram API token @BotFather
+            chat_id=7100649367,                                                      # Chat ID to send messages @GiveChatId
+            token="7575402055:AAH2IfVgRx0_DDKZICVWHaWza0sX30QnRoA",                          # Telegram API token @BotFather
             events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE, "BET_LOSE"],   # Only these events will be sent to the chat
             disable_notification=True,                                              # Revoke the notification (sound/vibration)
         ),
